@@ -1,39 +1,94 @@
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 body {
-    background-color: #FCF5E5;
+	background-color: #f5deb3;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 header {
-	background-color: #002171;
-	color: #ffffff;
+	background-image: linear-gradient(
+			328deg,
+			rgba(29, 29, 29, 0.05) 0%,
+			rgba(29, 29, 29, 0.05) 25%,
+			rgba(226, 226, 226, 0.05) 25%,
+			rgba(226, 226, 226, 0.05) 50%,
+			rgba(21, 21, 21, 0.05) 50%,
+			rgba(21, 21, 21, 0.05) 75%,
+			rgba(216, 216, 216, 0.05) 75%,
+			rgba(216, 216, 216, 0.05) 100%
+		),
+		linear-gradient(
+			172deg,
+			rgba(0, 0, 0, 0.05) 0%,
+			rgba(0, 0, 0, 0.05) 25%,
+			rgba(108, 108, 108, 0.05) 25%,
+			rgba(108, 108, 108, 0.05) 50%,
+			rgba(21, 21, 21, 0.05) 50%,
+			rgba(21, 21, 21, 0.05) 75%,
+			rgba(236, 236, 236, 0.05) 75%,
+			rgba(236, 236, 236, 0.05) 100%
+		),
+		linear-gradient(
+			207deg,
+			rgba(153, 153, 153, 0.05) 0%,
+			rgba(153, 153, 153, 0.05) 25%,
+			rgba(83, 83, 83, 0.05) 25%,
+			rgba(83, 83, 83, 0.05) 50%,
+			rgba(5, 5, 5, 0.05) 50%,
+			rgba(5, 5, 5, 0.05) 75%,
+			rgba(82, 82, 82, 0.05) 75%,
+			rgba(82, 82, 82, 0.05) 100%
+		),
+		linear-gradient(
+			297deg,
+			rgba(26, 26, 26, 0.05) 0%,
+			rgba(26, 26, 26, 0.05) 25%,
+			rgba(223, 223, 223, 0.05) 25%,
+			rgba(223, 223, 223, 0.05) 50%,
+			rgba(232, 232, 232, 0.05) 50%,
+			rgba(232, 232, 232, 0.05) 75%,
+			rgba(153, 153, 153, 0.05) 75%,
+			rgba(153, 153, 153, 0.05) 100%
+		),
+		linear-gradient(
+			204deg,
+			rgba(120, 120, 120, 0.05) 0%,
+			rgba(120, 120, 120, 0.05) 25%,
+			rgba(191, 191, 191, 0.05) 25%,
+			rgba(191, 191, 191, 0.05) 50%,
+			rgba(246, 246, 246, 0.05) 50%,
+			rgba(246, 246, 246, 0.05) 75%,
+			rgba(123, 123, 123, 0.05) 75%,
+			rgba(123, 123, 123, 0.05) 100%
+		),
+		linear-gradient(90deg, rgb(32, 234, 255), rgb(37, 116, 255));
+	color: #6D0000;
 	font-family: Georgia, "Times New Roman", Times, serif;
 	padding: 1em;
 }
 
 header a:link {
 	text-decoration: none;
-	color: #ffffff;
+	color: #6D0000;
 }
 header a:visited {
-	color: #ffffff;
+	color: #6D0000;
 }
 header a:hover {
 	color: #90c7e3;
 }
 
 h1 {
-    text-align: center;
-    font-size: 1.5em;
+	text-align: center;
+	font-size: 1.5em;
 }
 
 nav {
 	font-size: 1.2em;
 	text-align: center;
-	background-color: #83f28f;
+	background-color: #d6b4fc;
 }
 
 nav a {
@@ -59,13 +114,34 @@ nav ul {
 }
 
 nav li {
-	padding: .5em 1em;
+	padding: 0.5em 1em;
 	width: 100%;
 	border-bottom: 1px solid;
 }
 
 main {
 	padding: 0 1em;
+}
+
+section {
+	margin: .5em;
+	padding: 0 .5em;
+	border: .5px solid #6D0000;
+	box-shadow: 5px 5px grey;
+}
+
+section a {
+	text-decoration: none;
+}
+
+section a:link {
+	color: #a52a2a;
+}
+section a:visited {
+	color: #a52a2a;
+}
+section a:hover {
+	color: #90c7e3;
 }
 
 footer {
@@ -76,20 +152,13 @@ footer {
 }
 
 #wrapper {
-	background-color: #FCF5E5;
-}
-
-#racePic {
-	height: 425px;
-	background-image: url(../images/basicRaces.jpg);
-	background-size: 100%;
-	background-repeat: no-repeat;
+	background-color: #f5deb3;
 }
 
 @media (min-width: 600px) {
 	h1 {
 		font-size: 2em;
-		letter-spacing: .25em;
+		letter-spacing: 0.25em;
 	}
 
 	nav ul {
@@ -105,14 +174,80 @@ footer {
 		border-bottom: none;
 	}
 
-	#racePic {
-		background-size: 100% 100%;
+	section {
+		padding: 0 1em;
+	}
+
+	.flow {
+		display: flex;
+		flex-direction: row;
+	}
+	.flow section {
+		width: 600px;
 	}
 }
 
 @media (min-width: 1024px) {
 	body {
-		background-image: linear-gradient(to bottom, #FFFFFF 20%, #90c7e3 60%, #FFFFFF 100%);
+		background-image: radial-gradient(
+				circle at center center,
+				transparent 0%,
+				rgb(0, 0, 0) 85%
+			),
+			linear-gradient(
+				78deg,
+				rgba(192, 192, 192, 0.05) 0%,
+				rgba(192, 192, 192, 0.05) 50%,
+				rgba(60, 60, 60, 0.05) 50%,
+				rgba(60, 60, 60, 0.05) 100%
+			),
+			linear-gradient(
+				227deg,
+				rgba(97, 97, 97, 0.05) 0%,
+				rgba(97, 97, 97, 0.05) 50%,
+				rgba(52, 52, 52, 0.05) 50%,
+				rgba(52, 52, 52, 0.05) 100%
+			),
+			linear-gradient(
+				240deg,
+				rgba(98, 98, 98, 0.05) 0%,
+				rgba(98, 98, 98, 0.05) 50%,
+				rgba(249, 249, 249, 0.05) 50%,
+				rgba(249, 249, 249, 0.05) 100%
+			),
+			linear-gradient(
+				187deg,
+				rgba(1, 1, 1, 0.05) 0%,
+				rgba(1, 1, 1, 0.05) 50%,
+				rgba(202, 202, 202, 0.05) 50%,
+				rgba(202, 202, 202, 0.05) 100%
+			),
+			linear-gradient(
+				101deg,
+				rgba(61, 61, 61, 0.05) 0%,
+				rgba(61, 61, 61, 0.05) 50%,
+				rgba(254, 254, 254, 0.05) 50%,
+				rgba(254, 254, 254, 0.05) 100%
+			),
+			linear-gradient(
+				176deg,
+				rgba(237, 237, 237, 0.05) 0%,
+				rgba(237, 237, 237, 0.05) 50%,
+				rgba(147, 147, 147, 0.05) 50%,
+				rgba(147, 147, 147, 0.05) 100%
+			),
+			linear-gradient(
+				304deg,
+				rgba(183, 183, 183, 0.05) 0%,
+				rgba(183, 183, 183, 0.05) 50%,
+				rgba(57, 57, 57, 0.05) 50%,
+				rgba(57, 57, 57, 0.05) 100%
+			),
+			radial-gradient(
+				circle at center center,
+				hsl(351, 4%, 12%),
+				hsl(351, 4%, 12%)
+			);
 	}
 
 	nav ul {
