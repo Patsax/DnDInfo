@@ -33,7 +33,7 @@ h1 {
 nav {
 	font-size: 1.2em;
 	text-align: center;
-	background-color: white;
+	background-color: #83f28f;
 }
 
 nav a {
@@ -79,6 +79,13 @@ footer {
 	background-color: #FCF5E5;
 }
 
+#racePic {
+	height: 500px;
+	background-image: url(basicRaces.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
 @media (min-width: 600px) {
 	h1 {
 		font-size: 2em;
@@ -96,6 +103,10 @@ footer {
 	nav li {
 		width: 12em;
 		border-bottom: none;
+	}
+
+	#racePic {
+		background-size: 100% 100%;
 	}
 }
 
