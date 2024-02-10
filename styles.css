@@ -4,6 +4,7 @@
 
 body {
     background-color: #FCF5E5;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 header {
@@ -63,6 +64,21 @@ nav li {
 	border-bottom: 1px solid;
 }
 
+main {
+	padding: 0 1em;
+}
+
+footer {
+	text-align: center;
+	font-size: 0.7em;
+	font-style: italic;
+	padding: 3em 1em 1em 1em;
+}
+
+#wrapper {
+	background-color: #FCF5E5;
+}
+
 @media (min-width: 600px) {
 	h1 {
 		font-size: 2em;
@@ -80,5 +96,20 @@ nav li {
 	nav li {
 		width: 12em;
 		border-bottom: none;
+	}
+}
+
+@media (min-width: 1024px) {
+	body {
+		background-image: linear-gradient(to bottom, #FFFFFF 20%, #90c7e3 60%, #FFFFFF 100%);
+	}
+
+	nav ul {
+		padding: 0 10%;
+	}
+
+	#wrapper {
+		margin: auto;
+		width: 90%;
 	}
 }
