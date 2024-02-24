@@ -150,8 +150,31 @@ footer {
 	padding: 3em 1em 1em 1em;
 }
 
+table {
+	border-collapse: collapse;
+}
+
+tr{
+	border-bottom: 1px solid black;
+}
+
+th {
+	background-color: #6D0000;
+	color: #f5deb3;
+}
+
+td {
+	text-align: center;
+	padding: .5em 0;
+}
+
 #wrapper {
 	background-color: #f5deb3;
+}
+
+.raceName {
+	font-size: 3em;
+	border-bottom: .5em solid #6D0000;
 }
 
 @media (max-width: 430px) {
