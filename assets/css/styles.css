@@ -172,9 +172,17 @@ td {
 	background-color: #f5deb3;
 }
 
+.sourceBook {
+	font-size: 25px;
+}
+
 .raceName {
 	font-size: 3em;
 	border-bottom: .5em solid #6D0000;
+}
+
+.subraceName {
+	font-size: 20px;
 }
 
 @media (max-width: 430px) {
