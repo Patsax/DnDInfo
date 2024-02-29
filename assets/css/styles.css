@@ -178,13 +178,13 @@ img {
 	background-color: #f5deb3;
 }
 
-.sourceBook {
-	font-size: 25px;
-}
-
 .articleName {
 	font-size: 3em;
 	border-bottom: .5em solid #6D0000;
+}
+
+.sectionName {
+	font-size: 30px;
 }
 
 .subSectionName {
