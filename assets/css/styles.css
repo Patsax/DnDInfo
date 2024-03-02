@@ -237,6 +237,11 @@ img {
 		justify-content: center;
 	}
 	
+	#featList {
+		column-count: 3;
+	}
+
+	
 	.flow-item {
 		flex: 0 0 33.333333%;
 		margin: 1em 20px;
