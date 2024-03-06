@@ -192,6 +192,77 @@ img {
 	font-size: 20px;
 }
 
+#tab_grp_1 ul {
+	list-style: none;
+	width: 95%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#tab_grp_1 li {
+	padding: 15px 10px;
+	border-radius: 5px;
+	width: 80px;
+	text-align: center;
+	font-size: 15px;
+	cursor: pointer;
+	transition: all 0.2s ease;
+	box-shadow: 1px 1px 3px #6D0000;
+}
+
+#tab_grp_1 li.active,
+#tab_grp_1 li:hover {
+	background: #6D0000;
+	color: #f5deb3;
+}
+
+#tab_grp_2 ul {
+	list-style: none;
+	width: 95%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#tab_grp_2 li {
+	padding: 10px 15px;
+	border-radius: 5px;
+	min-width: 80px;
+	text-align: center;
+	cursor: pointer;
+	transition: all 0.2s ease;
+	box-shadow: 1px 1px 3px #6D0000;
+}
+
+#tab_grp_2 li.active,
+#tab_grp_2 li:hover {
+	background: #6D0000;
+	color: #f5deb3;
+}
+
+#tab_grp_3 ul {
+	list-style: none;
+	width: 95%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#tab_grp_3 li {
+	padding: 10px 15px;
+	border-radius: 5px;
+	min-width: 80px;
+	text-align: center;
+	cursor: pointer;
+	transition: all 0.2s ease;
+	box-shadow: 1px 1px 3px #6D0000;
+}
+
+#tab_grp_3 li.active,
+#tab_grp_3 li:hover {
+	background: #6D0000;
+	color: #f5deb3;
+}
+
+
 
 @media (max-width: 430px) {
 	nav li {
