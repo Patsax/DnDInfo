@@ -156,6 +156,10 @@ table {
 	margin-right: auto;
 }
 
+.tableDiv {
+	overflow-x: auto;
+}
+
 tr{
 	border-bottom: 1px solid black;
 }
