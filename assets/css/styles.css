@@ -213,7 +213,7 @@ img {
 	box-shadow: 1px 1px 3px #6D0000;
 }
 
-#tab_grp_1 li.active,
+#tab_grp_1 li.active1,
 #tab_grp_1 li:hover {
 	background: #6D0000;
 	color: #f5deb3;
@@ -236,7 +236,7 @@ img {
 	box-shadow: 1px 1px 3px #6D0000;
 }
 
-#tab_grp_2 li.active,
+#tab_grp_2 li.active2,
 #tab_grp_2 li:hover {
 	background: #6D0000;
 	color: #f5deb3;
@@ -259,7 +259,7 @@ img {
 	box-shadow: 1px 1px 3px #6D0000;
 }
 
-#tab_grp_3 li.active,
+#tab_grp_3 li.active3,
 #tab_grp_3 li:hover {
 	background: #6D0000;
 	color: #f5deb3;
