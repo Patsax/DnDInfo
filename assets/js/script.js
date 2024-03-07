@@ -48,31 +48,34 @@ $(document).ready(function() {
 //         $(this).addClass('active2');
 
 //         $('.row').hide();
-//         if(attr == 'artificer'){
+//         if(attr == 'cantrip'){
 //             $('.' + attr).show();
 //         }
-//         else if(attr == 'bard'){
+//         else if(attr == '1st'){
 //             $('.' + attr).show();
 //         }
-//         else if(attr == 'cleric'){
+//         else if(attr == '2nd'){
 //             $('.' + attr).show();
 //         }
-//         else if(attr == 'druid'){
+//         else if(attr == '3rd'){
 //             $('.' + attr).show();
 //         }
-//         else if(attr == 'paladin'){
+//         else if(attr == '4th'){
 //             $('.' + attr).show();
 //         }
-//         else if(attr == 'ranger'){
+//         else if(attr == '5th'){
 //             $('.' + attr).show();
 //         }
-//         else if(attr == 'sorcerer'){
+//         else if(attr == '6th'){
 //             $('.' + attr).show();
 //         }
-//         else if(attr == 'warlock'){
+//         else if(attr == '7th'){
 //             $('.' + attr).show();
 //         }
-//         else if(attr == 'wizard'){
+//         else if(attr == '8th'){
+//             $('.' + attr).show();
+//         }
+//         else if(attr == '9th'){
 //             $('.' + attr).show();
 //         }
 //         else{
