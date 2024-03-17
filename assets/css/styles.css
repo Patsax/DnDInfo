@@ -313,9 +313,16 @@ h3, h4 {
 	margin: .5em 0;
 }
 
-/* .tile-flex img {
-	float: left;
-} */
+.sectionFlex {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.break {
+	flex-basis: 100%;
+	height: 0;
+}
 
 
 @media all and (max-width: 430px) {
@@ -351,6 +358,10 @@ h3, h4 {
 @media all and (max-width: 769px) {
 	.flex-row {
 		font-size: 12px;
+	}
+
+	.sectionFlexItem {
+		max-width: 13em;
 	}
 
 	img {
@@ -395,7 +406,7 @@ h3, h4 {
 	}
 
 	.flow-item {
-		flex: 0 0 33.333333%;
+		flex: 0 0 30%;
 		margin: 5px 5px;
 	}
 }
